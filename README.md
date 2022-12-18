@@ -4,19 +4,18 @@ Also it shows some blogs for senior citizens
 
 ### Features
 
-- It shows today and upcoming contests.
-- Quick and efficient.
-- A productive tool.
+- It shows diet plan according to the health issues you have
+- Contains blogs for senior citizens
 
-# Contest Reminder
+# Website
 
-- This is the front page of the extension. You can go and check contest for today or upcoming contests.
+- This is the front page of the website. You can click on 'Create a Diet Chart' for a diet plan.
 
-![Main](https://user-images.githubusercontent.com/109656921/179968622-25bfee6f-b06c-4a1f-b776-643771057c1a.jpeg)
+![image](https://user-images.githubusercontent.com/109656921/208291777-f7a3a453-a935-4e4a-9285-99e8da3c2d81.png)
 
-- This page shows today's  contests for Codeforces, Codechef, Google Kickstart and Leetcode.
+-You can scroll down on the same page to view some helpful blogs related to lifestyle of elderly people
 
-![Today1](https://user-images.githubusercontent.com/109656921/179969050-9f839b8f-68ca-4165-9fb0-0fd9590ca6c9.jpeg)
+![image](https://user-images.githubusercontent.com/109656921/208291786-dc9a71da-047d-4066-8e0a-97c7f2384be0.png)
 
 - You can go back to main page by clicking on 'Go to main' button.
 
