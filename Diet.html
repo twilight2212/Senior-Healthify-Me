@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Your diet Plan</title>
+	<link rel="stylesheet" type="text/css" href="Diet styling.css">
+	<style type="text/css">
+		h1 {text-align: center;}
+		div.a{
+			text-align: center;
+			font-size: medium;
+			color: #FFFFFF;
+		}
+		body {
+		  background-image: url('https://images.hdqwalls.com/wallpapers/fast-food-minimalism-image.jpg');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+  		  background-size: 100% 100%;
+  		  font-family: "Sofia", sans-serif;
+          font-size: 30px;
+		}
+		.Header{
+  position: =fixed;
+  top: 1;
+  height: 35px;
+  background-color: #9ACD32;
+}
+	</style>
+</head>
+<body>
+	<div class="Header"><font size=2.5px>Welcome! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="Front page.html">go to home</a></font></div>
+	<h1><font color= yellowgreen>Enter your information</font></h1>
+	<div class = "a">We're happy that you've taken the first step towards a healthier you. We need a few details to kickstart your journey.</font></div>
+	<br>
+	<div class="form">
+		  <label for="fname"><font color="">What's your name?</font></label><br>
+		  <input type="text" id="fname" name="fname"><br>
+          <br>
+          Select your gender<br>
+          <input type="radio" id="male" value="Male" value="HTML">
+		  <label for="male">Male</label>
+          <input type="radio" id="female" value="Female" value="CSS">
+          <label for="female">Female</label>
+          <br><br>
+          Enter Your Age<br>
+          <label for="age"></label>
+          <input type="number" id="age" name="age" min="1" max="99">
+          <br><br>
+          Enter Your weight<br>
+          <label for="wt"></label>
+          <input type="number" id="wt" name="wt" min="1" max="99">
+          <br><br>
+
+	</div>
+	<br><br>
+	<div class="form1">
+			Any health issues?<br>
+		    <input type="checkbox" value="None" id="None" name="check"/>
+		    <label for="none">None</label><br>
+		    <input type="checkbox" value="Blood Pressure" id="bp" name="check"/>
+		    <label for="bp">Blood Pressure</label><br>
+		    <input type="checkbox" value="Diabeties" id="dib" name="check"/>
+		    <label for="dib">Diabeties</label><br>
+		    <input type="checkbox" value="Obesity" id="obes" name="check"/>
+		    <label for="obes">Obesity</label><br>
+		    <input type="checkbox" value="Respiratory Diseases" id="resp" name="check"/>
+		    <label for="resp">Respiratory Diseases</label><br>
+		    <input type="checkbox" value="Arthritis" id="arth" name="check"/>
+		    <label for="arth">Arthritis</label><br>
+	</div>
+		<br><br><br><br><br><br><br>
+		<button onclick="display()" class="button button2">Submit</button>
+<p id="n"></p>
+	<script type="text/javascript" src="Info.js"></script>
+</body>
+</html>
