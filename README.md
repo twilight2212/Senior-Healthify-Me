@@ -1,5 +1,5 @@
 # Senior-Healthify-Me
-This websit shows a diet plan for elderly people accorfing to their health conditions. 
+This website shows a diet plan for elderly people according to their health conditions. 
 Also it shows some blogs for senior citizens
 
 ### Features
